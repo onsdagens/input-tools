@@ -1,0 +1,10 @@
+[package]
+name = "input-tools"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+
+[target.'cfg(windows)'.dependencies]
+windows-experiments = { git = "https://github.com/onsdagens/windows-experiments" }
